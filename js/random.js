@@ -1,0 +1,1 @@
+var posts=["2025/03/02/Hello-world-0/","2025/03/02/My-New-Blog/","2025/03/03/My-New-Post/","2025/03/02/hello-world/","2025/03/03/this-is-a-test/","2025/03/02/Text/"];function toRandomPost(){window.open('/'+posts[Math.floor(Math.random() * posts.length)],"_self");};
